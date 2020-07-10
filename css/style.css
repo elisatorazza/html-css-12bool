@@ -22,6 +22,10 @@
 .row {
   height: 300px;
 }
-.row > div {
+.row:last-child > div > [class*=col-] {
+  background-color: red;
+}
 
+.row .col-6 > div {
+  border: 1px solid pink;
 }
