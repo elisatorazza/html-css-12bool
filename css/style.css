@@ -12,6 +12,7 @@
   height: 100%;
   background-color: pink;
   position: relative;
+  padding: 5px;
 }
 [class*=col-] > p {
   position:absolute;
@@ -23,9 +24,6 @@
   height: 300px;
 }
 .row:last-child > div > [class*=col-] {
-  background-color: red;
-}
-
-.row .col-6 > div {
-  border: 1px solid pink;
+  background-color: lightcoral;
+  border: 1px solid white;
 }
