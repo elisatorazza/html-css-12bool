@@ -23,7 +23,12 @@
 .row {
   height: 300px;
 }
-.row:last-child > div > [class*=col-] {
-  background-color: lightcoral;
-  border: 1px solid white;
-}
+ [class*=col-] [class*=col-] {
+   background-color: lightcoral;
+   border: 1px solid white;
+ }
+/* altro selettore per lo sfondo delle colonne dell'ultima riga */
+ /* .row:last-child > div > [class*=col-] {
+   background-color: lightcoral;
+   border: 1px solid white;
+ } */
